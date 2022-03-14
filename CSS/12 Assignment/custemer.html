@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Customer</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
+</head>
+<body>
+<header>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container-fluid">
+            <img src="assets/image/pizzahut.png" alt="" style="width: 50px">
+            <a class="navbar-brand" href="#">Pastry Shop</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse justify-content-end" id="navbarSupportedContent">
+                <div class="justify-content-end">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                        <li class="nav-item"><a class="nav-link" aria-current="page" href="index.html">Home</a></li>
+                        <li class="nav-item"><a class="nav-link" aria-current="page" href="order.html">Order</a></li>
+                        <li class="nav-item"><a class="nav-link active" aria-current="page" href="custemer.html">Customer</a></li>
+                        <li class="nav-item"><a class="nav-link" aria-current="page" href="item.html">Item</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </nav>
+</header>
+<main>
+    <section class="container">
+        <div class="row">
+            <div class="col-2"></div>
+            <div class="mb-3 col-8">
+                <label class="form-label" for="IdInput">ID</label>
+                <input class="form-control" id="IdInput" placeholder="Enter Customer ID" type="text">
+
+                <label class="form-label" for="NameInput">Name</label>
+                <input class="form-control" id="NameInput" placeholder="Enter Customer Name" type="text">
+
+                <label class="form-label" for="AddressInput">Address</label>
+                <input class="form-control" id="AddressInput" placeholder="Enter Customer Address" type="text">
+
+                <label class="form-label" for="ContactInput">Contact</label>
+                <input class="form-control" id="ContactInput" placeholder="Enter Customer Contact" type="text">
+            </div>
+            <div class="d-grid gap-2 d-md-flex justify-content-md-end">
+
+                <button type="button" class="btn btn-primary">Save</button>
+                <button type="button" class="btn-success">Update</button>
+                <button type="button" class="btn btn-danger">Delete</button>
+            </div>
+        </div>
+        <div class="row">
+            <table class="table">
+                <thead class="table-danger">
+                <tr>
+                    <th scope="col">ID</th>
+                    <th scope="col">Name</th>
+                    <th scope="col">Address</th>
+                    <th scope="col">Contact</th>
+                    <th scope="col">Email</th>
+                </tr>
+                </thead>
+                <tbody>
+                <tr>
+                    <th scope="row">1</th>
+                    <td>Mark</td>
+                    <td>Otto</td>
+                    <td>@mdo</td>
+                    <td>@mdo</td>
+                </tr>
+                <tr>
+                    <th scope="row">2</th>
+                    <td>Jacob</td>
+                    <td>Thornton</td>
+                    <td>@fat</td>
+                    <td>@fat</td>
+                </tr>
+                <tr>
+                    <th scope="row">3</th>
+                    <td>Larry the Bird</td>
+                    <td>@twitter</td>
+                    <td>@twitter</td>
+                    <td>@twitter</td>
+                </tr>
+                </tbody>
+            </table>
+        </div>
+    </section>
+</main>
+
+<script crossorigin="anonymous"
+        integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+        src="assets/bootstrap/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
